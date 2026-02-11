@@ -1,0 +1,13 @@
+C:\Users\user\dotnet0\MyMinApi\publish\MyMinApi.exe
+C:\Users\user\dotnet0\MyMinApi\publish\publish\web.config
+C:\Users\user\dotnet0\MyMinApi\publish\appsettings.Development.json
+C:\Users\user\dotnet0\MyMinApi\publish\appsettings.json
+C:\Users\user\dotnet0\MyMinApi\publish\publish\appsettings.Development.json
+C:\Users\user\dotnet0\MyMinApi\publish\publish\appsettings.json
+C:\Users\user\dotnet0\MyMinApi\publish\publish\MyMinApi.deps.json
+C:\Users\user\dotnet0\MyMinApi\publish\publish\MyMinApi.runtimeconfig.json
+C:\Users\user\dotnet0\MyMinApi\publish\publish\MyMinApi.staticwebassets.endpoints.json
+C:\Users\user\dotnet0\MyMinApi\publish\MyMinApi.dll
+C:\Users\user\dotnet0\MyMinApi\publish\MyMinApi.deps.json
+C:\Users\user\dotnet0\MyMinApi\publish\MyMinApi.runtimeconfig.json
+C:\Users\user\dotnet0\MyMinApi\publish\MyMinApi.pdb
