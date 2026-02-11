@@ -7,30 +7,14 @@
   "targets": {
     ".NETCoreApp,Version=v9.0": {
       "MyMinApi/1.0.0": {
-        "dependencies": {
-          "VbBusinessLogic2": "1.0.0"
-        },
         "runtime": {
           "MyMinApi.dll": {}
-        }
-      },
-      "VbBusinessLogic2/1.0.0": {
-        "runtime": {
-          "VbBusinessLogic2.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
         }
       }
     }
   },
   "libraries": {
     "MyMinApi/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "VbBusinessLogic2/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
