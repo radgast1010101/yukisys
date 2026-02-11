@@ -30,7 +30,7 @@ jobs:
             "ConnectionStrings": {
               "DefaultConnection":"${{ secrets.MONSTERASP_DB_CONNECTION }}"
             }
-          }' > ./appsettings.Production.json
+          }' > ./publish/appsettings.Production.json
           
       - name: Deploy to MonsterASP.NET via WebDeploy
         uses: rasmusbuchholdt/simply-web-deploy@2.1.0
@@ -39,3 +39,5 @@ jobs:
           server-computer-name: ${{ secrets.SERVER_COMPUTER_NAME }}
           server-username: ${{ secrets.SERVER_USERNAME }}
           server-password: ${{ secrets.SERVER_PASSWORD }}
+          source-path: ./publish
+          target-path: '/'
