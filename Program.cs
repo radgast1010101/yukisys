@@ -1,6 +1,14 @@
 using Microsoft.AspNetCore.Mvc;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// CONFIG, SERVER
+builder.Configuration
+    .SetBasePath(Directory.GetCurrentDirectory())
+    .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+    .AddJsonFile($"appsettings.Production.json", optional: true, reloadOnChange: true)
+    .AddEnvironmentVariables();
+
 var app = builder.Build();
 
 app.MapGet("/", () => "Hello World!");
