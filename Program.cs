@@ -11,7 +11,7 @@ builder.Configuration
 
 var app = builder.Build();
 
-app.MapGet("/", () => "Hello World!");
+app.MapGet("/", () => "Y.U.K.I.SYS - YOURU UTTARAMAN KAIJU INFORMATION SYSTEM");
 
 // add simple todo api
 var todos = new List<string>();
